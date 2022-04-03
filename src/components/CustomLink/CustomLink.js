@@ -15,8 +15,8 @@ function CustomLink({ children, to, ...props }) {
                     fontSize: "1.5em",
                     fontWeight: "500",
                     textDecoration: match ? "underline" : "none",
-                    textDecorationColor: match ? "red" : "rgb(163, 162, 162)",
-                    color: hover ? "red" : "white",
+                    textDecorationColor: match ? "#DC3545" : "rgb(163, 162, 162)",
+                    color: hover ? "#DC3545" : "white",
                     transition: "0.5s"
                 }}
                 to={to}
