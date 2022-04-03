@@ -4,7 +4,7 @@ import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <nav className='m-2 d-flex justify-content-center align-items-center'>
+        <nav className='p-3 bg-dark d-flex flex-column flex-md-row flex-lg-row justify-content-center align-items-center'>
             <CustomLink to="/home">Home</CustomLink>
             <CustomLink to="/reviews">Reviews</CustomLink>
             <CustomLink to="/dashboard">Dashboard</CustomLink>
