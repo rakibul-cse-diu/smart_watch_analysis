@@ -15,9 +15,11 @@ const Home = () => {
             </div>
             <div>
                 <h2>Customer Rreviews (03)</h2>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
         </div>
     );
