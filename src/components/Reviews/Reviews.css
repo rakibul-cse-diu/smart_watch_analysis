@@ -1,0 +1,9 @@
+.review-container {
+    width: 60%;
+}
+
+@media screen and (max-width:668px) {
+    .review-container {
+        width: 80%
+    }
+}

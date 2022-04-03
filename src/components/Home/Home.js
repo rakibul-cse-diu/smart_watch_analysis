@@ -1,10 +1,9 @@
 import React from 'react';
-import Rating from 'react-rating';
-import { faStar } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import useReview from '../../Hooks/useReview';
 import productImg from '../../images/product-img.jpg';
 import { Link } from 'react-router-dom';
+import Review from '../Review/Review';
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
     const [reviews, setReviews] = useReview();
@@ -24,20 +23,7 @@ const Home = () => {
                 <h2>Customer Rreviews ({reviews.length})</h2>
                 <div className='mt-4 d-flex flex-column flex-md-row flex-lg-row'>
                     {
-                        cuttedReviews.map(review =>
-                            <div className='p-2 m-1 mb-3 border border-light rounded'>
-                                <div>
-                                    <img className='rounded-circle me-2' src={review.img} alt="profile pic" width={50} height={50} />
-                                    <strong>{review.name}</strong>
-                                </div>
-                                <Rating
-                                    initialRating={review.rating}
-                                    emptySymbol={<FontAwesomeIcon icon={faStar} />}
-                                    fullSymbol={<FontAwesomeIcon style={{ color: 'goldenrod' }} icon={faStar} />}
-                                    readonly
-                                ></Rating>
-                                <p>{review.review}</p>
-                            </div>)
+                        cuttedReviews.map(review => <Review review={review} key={review.id}></Review>)
                     }
                 </div>
                 <Link to="/reviews">
