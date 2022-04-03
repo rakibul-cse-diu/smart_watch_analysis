@@ -1,0 +1,44 @@
+[
+    {
+        "id": "r01",
+        "name": "Kallie G",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/741503e8-a4ed-4855-994a-3f5c783f52c7._CR69,0,362,362_SX460_.jpg",
+        "review": "I was a little bit hesitant to buy the Venu SQ because my last Garmin watch was so heavy on features that I didn't know how to use (and honestly don't need.) If you're like me, a casual athlete, maybe you're into fitness walking or doing light yoga... or even a new runner, this is probably the watch for you.",
+        "rating": 5
+    },
+    {
+        "id": "r02",
+        "name": "Grossman",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/e234e759-ec66-48a0-8d42-3972f2e4dc90._CR0,0,500,500_SX460_.jpg",
+        "review": "I've had a Fitbit Charge 3 since late 2018 and have been quite happy with it, except for the poor selection of watch faces. I wanted to see if there are better options out there now since it's been two years, so I tried the new Fitbit Sense and was very disappointed to say the least. That got me curious about Garmin, which resulted in my giving the Venu Sq a shot",
+        "rating": 4
+    },
+    {
+        "id": "r03",
+        "name": "Joseph Pitt",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/35f305fb-562f-4347-bece-cb5e561fb620._CR21,0,675,675_SX460_.jpg",
+        "review": "If you're looking for a high-end smartwatch look elsewhere. If you're looking for an above average fitness watch you read the rest. Battery lasts for days on days. I charge it once every 6 days or so once the battery gets to 10%. It pairs quickly and has a decent range. As a smartwatch it's ok.",
+        "rating": 4
+    },
+    {
+        "id": "r04",
+        "name": "Garcia",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/31a0c6d2-f089-4c93-925e-7b8fbd8389cf._CR0,0,1080,1080_SX460_.jpg",
+        "review": "I bought the Garmin Venu 2s to replace a Fitbit Charge 3. 3 Fitbit users in my house and 2 devices died or broke right at the 1 year mark. I compared it to all the other models and picked Venu 2s for the heavy list of tech and 2021 release date expecting that to mean better capabilities overall. With all the tech in it, I still can't get the dang thing to sync with any of my running apps.",
+        "rating": 3
+    },
+    {
+        "id": "r05",
+        "name": "Krista Kitty",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/09bb329d-f298-4319-a9ca-7c85254ce165._CR0,13,306,306_UX460_.jpg",
+        "review": "I've had two Samsung watches over the years. The gear 3 and the watch3. Both of them were way more expensive than this and sucked. I'm extremely happy with this Garmin I don't even pay for Amazon music and I have Amazon music on it.",
+        "rating": 4
+    },
+    {
+        "id": "r06",
+        "name": "S. Borrelli",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/e956d788-e9dc-43cc-910c-3d5ac54b206a._CR109,0,281,281_SX460_.jpg",
+        "review": "I have had two other 'smart' watches. One lasted almost a year, the other six months. I loved the fact I could monitor my walking and burned calories with those watches, but the failure rate was high.I decided to try a smart watch again, but this time went for high quality. Wow! What a difference!I have had this watch ten days and I am still learning.",
+        "rating": 5
+    }
+]
